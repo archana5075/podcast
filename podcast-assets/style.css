@@ -1,0 +1,101 @@
+body{
+    margin: 60px;
+    background-color: #121725;
+    font-family: 'Roboto', sans-serif;
+}
+
+.podcast-top-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.div-logo{
+    margin-left:20px;
+    padding: 30px;
+}
+
+.div-background-image{
+    z-index: -1;
+    position: relative;
+    left:400px;
+}
+.podcast-top-container-header {
+  position: absolute;
+  left: 100px;
+  background-color: #121725;  
+  z-index: 1;  
+  width: 40%;
+  height: 565px;
+  text-align: left;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+
+.podcast-top-container-header > h1{
+    color: #54E3AD;
+}
+
+.podcast-top-container-header > p{
+    color: #88AABE;
+}
+
+.input-genre{
+    background-color: #2B344B;
+    height: 50px;
+    border-radius: 25px;
+    color:#6B6B6F;
+}
+
+.input-genre > span {
+    margin-top:50px;
+    margin-left:40px;
+}
+
+.podcast-middle-container{
+    display: flex;
+      
+}
+
+
+.card > .card-image{  
+    margin-top: 20px;
+    width:150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.card > h3{
+    color: white;
+    text-align: center;
+}
+
+.card > h4 {
+    color: #6B6B6F ;
+    text-align: center;
+}
+
+.btn-listen{
+    display: block;
+    background-color: aquamarine;
+    color: black;
+    width: 100px;
+    height: 20px;
+    border-radius:25px ;
+    text-align: center;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.podcast-footer{
+    display: flex;
+    margin-left: 70px;
+}
+
+.podcast-footer > img{
+    padding: 30px;
+}
