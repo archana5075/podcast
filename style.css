@@ -58,7 +58,7 @@ body{
 
 .podcast-middle-container{
     display: flex;
-      
+    flex-wrap: wrap;  
 }
 
 
