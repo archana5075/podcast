@@ -47,6 +47,7 @@ body {
 .podcast-top-container-header > h1 {
   color: #54e3ad;
   font-size: 48px;
+  font-weight: 300;
 }
 
 .podcast-top-container-header > p {
@@ -66,23 +67,27 @@ body {
 
 .podcast-middle-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.card > .card-image {
+#card > .card-image {
   margin-top: 20px;
   width: 150px;
   height: 150px;
   padding: 10px;
   border-radius: 25px;
 }
-.card > h3 {
+#card > h3 {
   color: #b7bac3;
   text-align: center;
+  font-weight: 300;
 }
 
-.card > h4 {
+#card > h4 {
   color: #779ac6;
   text-align: center;
+  font-weight: 500;
 }
 
 .btn-listen {
@@ -95,6 +100,8 @@ body {
   text-align: center;
   margin-left: 30px;
   padding: 10px;
+  font-weight: bold;
+  font-size: small;
 }
 
 .podcast-footer {
@@ -104,4 +111,8 @@ body {
 
 .podcast-footer > img {
   padding: 30px;
+}
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
 }

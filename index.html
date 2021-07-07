@@ -6,9 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
     <title>Podcast</title>
 </head>
@@ -21,32 +19,9 @@
         <div class="podcast-top-container-header">
             <h1> DISCOVER NEW PODCASTS</h1>
             <p>Search for your next favorite Podcast.</p>
-            <div class="input-genre">Genre</div>
+            <div class="input-genre">&nbsp;&nbsp;&nbsp;Genre</div>
             <div class="podcast-middle-container">
-                <div class="card">
-                    <img class="card-image" src="./podcast-assets/desktop/search-image-podcast1.jpeg" />
-                    <h3>Podcast Title</h3>
-                    <h4>Genre</h4>
-                    <div class="btn-listen">Listen</div>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="./podcast-assets/desktop/search-image-paodcast2.jpeg" />
-                    <h3>Podcast Title</h3>
-                    <h4>Genre</h4>
-                    <div class="btn-listen">Listen</div>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="./podcast-assets/desktop/search-image-podcast3.jpeg" />
-                    <h3>Podcast Title</h3>
-                    <h4>Genre</h4>
-                    <div class="btn-listen">Listen</div>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="./podcast-assets/desktop/search-image-podcast4.jpeg" />
-                    <h3>Podcast Title</h3>
-                    <h4>Genre</h4>
-                    <div class="btn-listen">Listen</div>
-                </div>
+                <!--Fetch API Call for all cards-->
             </div>
         </div>
         <div class="div-background-image">
@@ -64,6 +39,7 @@
         <img src="./podcast-assets/desktop/google-podcasts.svg" />
         <img src="./podcast-assets/desktop/pocket-casts.svg" />
     </div>
+    <script src="searchPodcastFetch.js"></script>
 </body>
 
 </html>
