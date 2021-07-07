@@ -1,31 +1,40 @@
-body{
-    margin: 60px;
-    background-color: #121725;
-    font-family: 'Roboto', sans-serif;
+body {
+  margin: 60px;
+  background-color: #121725;
+  font-family: "Roboto", sans-serif;
 }
 
-.podcast-top-container{
-    display: flex;
-    align-items: center;
-    text-align: center;
+.podcast-top-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  max-height: max-content;
 }
 
-
-.div-logo{
-    margin-left:20px;
-    padding: 30px;
+.div-logo {
+  margin-left: 20px;
+  padding: 30px;
 }
 
-.div-background-image{
-    z-index: -1;
-    position: relative;
-    left:400px;
+.div-background-image {
+  z-index: -1;
+  position: relative;
+  left: 650px;
+  max-width: 100%;
+}
+
+.div-dots {
+  position: absolute;
+  z-index: 2;
+  left: 1380px;
+  top: 750px;
 }
 .podcast-top-container-header {
   position: absolute;
   left: 100px;
-  background-color: #121725;  
-  z-index: 1;  
+  background-color: #121725;
+  z-index: 1;
   width: 40%;
   height: 565px;
   text-align: left;
@@ -35,67 +44,64 @@ body{
   font-size: 18px;
 }
 
-
-.podcast-top-container-header > h1{
-    color: #54E3AD;
+.podcast-top-container-header > h1 {
+  color: #54e3ad;
+  font-size: 48px;
 }
 
-.podcast-top-container-header > p{
-    color: #88AABE;
+.podcast-top-container-header > p {
+  color: #88aabe;
+  margin-top: -30px;
 }
 
-.input-genre{
-    background-color: #2B344B;
-    height: 50px;
-    border-radius: 25px;
-    color:#6B6B6F;
+.input-genre {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  background-color: #2b344b;
+  height: 50px;
+  border-radius: 25px;
+  color: #6b6b6f;
 }
 
-.input-genre > span {
-    margin-top:50px;
-    margin-left:40px;
+.podcast-middle-container {
+  display: flex;
 }
 
-.podcast-middle-container{
-    display: flex;
-    flex-wrap: wrap;  
+.card > .card-image {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 25px;
 }
-
-
-.card > .card-image{  
-    margin-top: 20px;
-    width:150px;
-    height: 150px;
-    padding: 10px;
-    border-radius: 25px;
-}
-.card > h3{
-    color: white;
-    text-align: center;
+.card > h3 {
+  color: #b7bac3;
+  text-align: center;
 }
 
 .card > h4 {
-    color: #6B6B6F ;
-    text-align: center;
+  color: #779ac6;
+  text-align: center;
 }
 
-.btn-listen{
-    display: block;
-    background-color: aquamarine;
-    color: black;
-    width: 100px;
-    height: 20px;
-    border-radius:25px ;
-    text-align: center;
-    margin-left: 30px;
-    padding: 10px;
+.btn-listen {
+  display: block;
+  background-color: aquamarine;
+  color: black;
+  width: 100px;
+  height: 20px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 30px;
+  padding: 10px;
 }
 
-.podcast-footer{
-    display: flex;
-    margin-left: 70px;
+.podcast-footer {
+  margin-left: 70px;
+  z-index: 2;
 }
 
-.podcast-footer > img{
-    padding: 30px;
+.podcast-footer > img {
+  padding: 30px;
 }
