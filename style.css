@@ -142,7 +142,6 @@ body {
     display: flex;
     width: 768px;
     height: 1024px;
-    background: url("./podcast-assets/desktop/image-host.jpg");
   }
 
   .input-genre {
@@ -210,6 +209,6 @@ body {
   .img-google,
   .img-pocket,
   .img-spotify {
-    align-items: center;
+    align-items: baseline;
   }
 }
