@@ -1,8 +1,8 @@
 {
     "podcasts":[
-        {"title":"Podcast-1", "genre":"JavaScript","url":"./podcast-assets/desktop/search-image-podcast1.jpeg"},
-        {"title":"Podcast-2", "genre":"JavaScript","url":"./podcast-assets/desktop/search-image-podcast2.jpeg"},
-        {"title":"Podcast-3", "genre":"JavaScript","url":"./podcast-assets/desktop/search-image-podcast3.jpeg"},
-        {"title":"Podcast-4", "genre":"JavaScript","url":"./podcast-assets/desktop/search-image-podcast4.jpeg"}             
+        {"title":"Podcast-1", "genre":"Genre","url":"./podcast-assets/desktop/search-image-podcast1.jpeg"},
+        {"title":"Podcast-2", "genre":"Genre","url":"./podcast-assets/desktop/search-image-podcast2.jpeg"},
+        {"title":"Podcast-3", "genre":"Genre","url":"./podcast-assets/desktop/search-image-podcast3.jpeg"},
+        {"title":"Podcast-4", "genre":"Genre","url":"./podcast-assets/desktop/search-image-podcast4.jpeg"}             
     ]
 }

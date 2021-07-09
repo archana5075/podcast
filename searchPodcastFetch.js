@@ -14,4 +14,8 @@ async function fetchPodcasts() {
   });
 }
 
-fetchPodcasts();
+document.querySelector(".input-genre").onclick = () => {
+  fetchPodcasts();
+  document.querySelector(".podcast-middle-container > p").style.display =
+    "none";
+};

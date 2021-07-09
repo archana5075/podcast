@@ -6,14 +6,11 @@ body {
 
 .podcast-top-container {
   display: flex;
-  align-items: center;
-  text-align: center;
-  max-width: 100%;
-  max-height: max-content;
+  flex-wrap: wrap;
 }
 
 .div-logo {
-  margin-left: 20px;
+  margin-left: 40px;
   padding: 30px;
 }
 
@@ -21,7 +18,8 @@ body {
   z-index: -1;
   position: relative;
   left: 650px;
-  max-width: 100%;
+  width: 888px;
+  height: 640px;
 }
 
 .div-dots {
@@ -35,8 +33,6 @@ body {
   left: 100px;
   background-color: #121725;
   z-index: 1;
-  width: 40%;
-  height: 565px;
   text-align: left;
   padding: 20px;
   margin-left: 20px;
@@ -51,7 +47,11 @@ body {
 }
 
 .podcast-top-container-header > p {
-  color: #88aabe;
+  color: #c2cbe5;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
   margin-top: -30px;
 }
 
@@ -60,26 +60,37 @@ body {
   text-align: left;
   align-items: center;
   background-color: #2b344b;
-  height: 50px;
-  border-radius: 25px;
+  height: 56px;
+  border-radius: 28px;
   color: #6b6b6f;
+  width: 715.1px;
 }
 
 .podcast-middle-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  align-self: flex-start;
+  text-align: center;
+  align-items: center;
+  width: 814.1px;
+  height: 500.21px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.podcast-middle-container > p {
+  color: #c2cbe5;
+  align-self: flex-start;
 }
 
 #card > .card-image {
-  margin-top: 20px;
   width: 150px;
   height: 150px;
   padding: 10px;
   border-radius: 25px;
 }
 #card > h3 {
-  color: #b7bac3;
+  color: #c2cbe5;
   text-align: center;
   font-weight: 300;
 }
@@ -105,14 +116,49 @@ body {
 }
 
 .podcast-footer {
-  margin-left: 70px;
-  z-index: 2;
+  align-self: flex-end;
+  flex-wrap: nowrap;
 }
 
 .podcast-footer > img {
   padding: 30px;
 }
 
+.img-spotify,
+.img-apple,
+.img-google,
+.img-pocket {
+  padding: 30px;
+}
+
 @media only screen and (device-width: 768px) {
   /* For general iPad layouts */
+  .div-background-image > img,
+  .div-dots > img {
+    display: none;
+  }
+  /* body {
+    background: url("./podcast-assets/desktop/image-host.jpg");
+  } */
+  .main {
+    display: flex;
+  }
+
+  .podcast-middle-container {
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .podcast-top-container-header {
+    max-width: 60%;
+    max-height: 50%;
+  }
+  .podcast-top-container-header > h1 {
+    font-size: 32px;
+  }
+
+  .podcast-top-container-header > p {
+    margin-top: -20px;
+  }
 }
